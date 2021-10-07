@@ -1,5 +1,5 @@
 {
-  "name": "lab-node-template",
+  "name": "labs-node-oidc-authentication-trace",
   "version": "1.1.0",
   "description": "An auth0 training lab template",
   "license": "MIT",
