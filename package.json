@@ -5,15 +5,18 @@
   "license": "MIT",
   "author": "Auth0",
   "bugs": {
-    "url": "https://github.com/auth0-training/labs-node-template/issues"
+    "url": "https://github.com/auth0-training/labs-node-oidc-authentication-trace/issues"
   },
-  "homepage": "https://github.com/auth0-training/labs-node-template#readme",
+  "homepage": "https://github.com/auth0-training/labs-node-oidc-authentication-trace#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/auth0-training/labs-node-template.git"
+    "url": "git+https://github.com/auth0-training/labs-node-oidc-authentication-trace.git"
   },
   "scripts": {
-
+    "init": "concurrently \"npm:init:dependencies\"",
+    "init:dependencies": "concurrently \"npm:web-app:dependencies\"",
+    "web-app:start": "npm start --prefix ./src/web-app",
+    "web-app:dependencies": "npm install --prefix ./src/web-app"
   },
   "keywords": [
     "auth0",
