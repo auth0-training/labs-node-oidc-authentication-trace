@@ -11,7 +11,7 @@
     {"file": "README.md",
       "line": 1,
       "title": "Start the Included Application",
-      "description": "We've included a web application in this lab. Build and run it locally by [clicking here](command:workbench.action.debug.start).\n\nWait a moment for the application to launch. You can see the progress in the debug console.\n\n[Click here](command:auth0.lab.openEndpointByName?[\"Lab: Web App\"]) to open the application in your browser."
+      "description": "We've included a web application in this lab. Build and run it locally by [clicking here](command:workbench.action.debug.start).\n\nWait a moment for the application to launch. You can see the progress in the debug console.\n\n[Click here](command:auth0.lab.openEndpointByName?["Lab: Web App"]) to open the application in your browser."
     },
     {
       "file": "README.md",
