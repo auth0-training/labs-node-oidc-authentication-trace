@@ -8,7 +8,8 @@
       "title": "What you'll do",
       "description": "**Here's what you'll do:**  \n\n1.  Locate, view, and understand the network trace for your expenses web application during OpenID Connect Authentication\n2.  Examine the claims in an ID token"
     },
-    {
+    {"file": "README.md",
+      "line": 1,
       "title": "Start the Included Application",
       "description": "We've included a web application in this lab. Build and run it locally by [clicking here](command:workbench.action.debug.start).\n\nWait a moment for the application to launch. You can see the progress in the debug console.\n\n[Click here](command:auth0.lab.openEndpointByName?[\"Lab: Web App\"]) to open the application in your browser."
     },
@@ -25,6 +26,8 @@
       "title": "Perform the Network Trace"
     },
     {
+      "file": "README.md",
+      "line": 1,
       "title": "Decode Your Token",
       "description": "1. #### Go to [jwt.io](https://jwt.io/) and paste the ID token copied from the last step into the text area on the left. Notice that as soon as you paste it, the contents of the text area on the right are updated. This is because the site decodes your ID token and displays its contents (claims) in that panel.\n\n  ![jwt.io](./.auth0/lab/guides/images/trace06-jwt.png)  \n  \n  **Note:** About the token structure:  \n  * The token structure: consists of the header (information about the token), the payload (the token’s claims and user profile information), and the signature.\n  * The claim iss is for the issuer of the token. It denotes who created and signed it. The value should match your Auth0 Domain value with an https:// prefixed.\n  * The claim sub is the subject of the token. It denotes to whom the token refers. In our case, the value matches the ID of the Auth0 user.\n  * The claim aud is the audience of the token. It denotes for which app the token is intended. In our case, this matches the Client ID of the application that made the authentication request.\n  * The claim iat shows when the token was issued (seconds since Unix epoch) and can be used to determine the token’s age.\n\n  The claim exp shows when the token expires (seconds since Unix epoch).\n\n  Congrats! You've performed a Network Trace!"
     },
