@@ -12,7 +12,7 @@
       "file": "README.md",
       "line": 1,
       "title": "Start the Included Application",
-      "description": "## Start the included application:\n\nWe've included a web application in this lab. \n\n1. #### Build and run it locally by [clicking here](command:workbench.action.debug.start).\n   Wait a moment for the application to launch. You can see the progress in the debug console.\n1. #### Then, [click here](command:auth0.lab.openEndpointByName?[\"Lab: Web App\"]) to open the application in your browser."
+      "description": "## Start the included application:\n\nWe've included a web application in this lab. \n\n1. #### Click [here](command:auth0.lab.tenantConfigure) to ensure that your Auth0 tenant is configured appropriately for this lab.\n1. #### Last, click [here](command:workbench.action.files.saveAll) to save all of this progress.\n1. #### Build and run it locally by [clicking here](command:workbench.action.debug.start).\n   Wait a moment for the application to launch. You can see the progress in the debug console.\n\n1. #### Then, [click here](command:auth0.lab.openEndpointByName?[\"Lab: Web App\"]) to open the application in your browser."
     },
     {
       "file": "README.md",
