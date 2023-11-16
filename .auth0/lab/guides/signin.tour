@@ -8,5 +8,5 @@
       "line": 1
     }
   ], 
-  "nextTour": "1: Create the Single Page Application in Your Auth0 Labs Tenant"
+  "nextTour": "1: Perform an OIDC Network Trace"
 }
