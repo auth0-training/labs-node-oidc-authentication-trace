@@ -1,5 +1,6 @@
 {
   "editor.minimap.enabled": false,
+  "comments.maxHeight": false,  
   "editor.formatOnSave": false,
     // Enable per-language
   "[json]": {
