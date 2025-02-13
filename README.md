@@ -1,6 +1,6 @@
 # Lab Node OpenID Connect Authentication Network Trace
 
-In this [Okta Training](https://www.okta.com/training/) hands-on lab learners will perform a network trace and examine the claims within an ID token.
+In this [Okta Training](https://learning.okta.com/) hands-on lab learners will perform a network trace and examine the claims within an ID token.
 
 ## Requirements
 
